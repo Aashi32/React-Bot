@@ -1,0 +1,128 @@
+/* App.css */
+.signup-container {
+  max-width: 1200px; /* Fixed width */
+  height: 725px; /* Fixed height */
+  padding: 0px 1px 0px 0px;
+
+  margin: 0 auto;
+  gap: 10px;
+  opacity: 1; /* Hidden by default, change to 1 to make visible */
+  background-image: url('./images/Bg.png');
+  background-size: cover;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h2 {
+  text-align: center;
+  color: #fff; /* White text color */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 20px;
+  Border-radius: 20px;
+    width: 870px;
+    height: max-content;
+
+}
+
+label {
+  margin-bottom: 5px;
+  color: #fff; /* White text color */
+  
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 500px;
+}
+
+button {
+  padding: 8px 15px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  width: 300px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.other-signup-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff; /* White text color */
+}
+
+a {
+  color: #007bff;
+}
+
+/* App.css */
+.other-signup-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.other-signup-options button {
+  width: 906.22px; /* Fixed width */
+  height: 60.44px; /* Fixed height */
+  padding: 17px 262px; /* Padding left and right */
+  gap: 10px;
+  border-radius: 11.01px 11.01px 11.01px 11.01px; /* Rounded corners (top-left only) */
+  opacity: 1; /* Hidden by default, change to 1 to make visible */
+  background: #d9d9d9; /* Light gray background */
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Comfortaa;
+font-size: 23.13px;
+font-weight: 500;
+line-height: 25.79px;
+text-align: center;
+
+}
+
+.other-signup-options button:hover {
+  background-color: #c8c8c8; /* Darker gray on hover */
+}
+
+.other-signup-options button span {
+  width: 382.22px; /* Fixed width */
+  height: 26.44px; /* Fixed height */
+  gap: 0px;
+  opacity: 1; /* Hidden by default, change to 1 to make visible */
+}
+
+/* App.css */
+.other-signup-options button img {
+  width: 25.91px;
+  height: 26.44px;
+  gap: 0px;
+  opacity: 1;
+  margin-right: 10px; /* Adjust as needed for spacing */
+}
